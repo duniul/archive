@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file is needed to make the app searchable and runnable with Google Now. -->
+
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="Audio App">
+
+</searchable>

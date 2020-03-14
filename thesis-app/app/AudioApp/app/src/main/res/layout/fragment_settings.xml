@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/progess_bar_amplitude"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="183dp" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="Confirm Settings"
+        android:id="@+id/confirm_button"
+        android:layout_below="@+id/progess_bar_amplitude"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="Test Amplitude"
+        android:id="@+id/test_amplitude_button"
+        android:layout_below="@+id/progess_bar_amplitude"
+        android:layout_alignStart="@+id/confirm_button"
+        android:layout_centerHorizontal="true"
+        android:onClick=""
+        />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Set a max amplitude for your device:"
+        android:id="@+id/amplitude_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/amplitude_level"
+        android:layout_below="@+id/amplitude_text"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

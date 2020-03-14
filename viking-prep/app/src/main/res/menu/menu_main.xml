@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.su.dsv.viking_prep_pvt_15_group9.MainActivity">
+
+    <item
+        android:id="@+id/action_example"
+        android:title="@drawable/tv_logo_svartvit"
+        android:icon="@drawable/tv_logo_svartvit"
+        app:showAsAction="always"
+
+        />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="240dp"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        android:background="@color/button_bg_gold"
+        android:text="Formulär"
+        android:textColor="@color/button_text_white"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:contentDescription="@string/app_name"
+        android:textStyle="bold"
+        android:id="@+id/matchmaking_dialog_header" />
+
+    <TextView
+        android:id="@+id/text_excercise_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/text_excercise_per_week"
+        android:textColor="@color/button_text_white"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group_excercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp" >
+
+        <RadioButton
+            android:id="@+id/r_button_excercise_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/button_bg_gold"
+            android:checked="true"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/radio_button_training_interval12"
+            android:textColor="@color/button_text_white"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/r_button_excercise_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/button_bg_gold"
+            android:checked="false"
+            android:text="@string/radio_button_training_interval34"
+            android:textColor="@color/button_text_white"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/r_button_excercise_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/button_bg_gold"
+            android:checked="false"
+            android:text="@string/radio_button_training_interval56"
+            android:textColor="@color/button_text_white"
+            android:textSize="15sp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_age_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/text_age_interval"
+        android:textColor="@color/button_text_white"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/field_min_age"
+        android:hint="Från ålder"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/field_max_age"
+        android:hint="Till ålder"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp" />
+
+
+    <TextView
+        android:id="@+id/text_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/gender_partner"
+        android:textColor="@color/button_text_white"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp" >
+
+        <RadioButton
+            android:id="@+id/radio_button_gender_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/button_bg_gold"
+            android:checked="true"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/radio_button_male"
+            android:textColor="@color/button_text_white"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_gender_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/button_bg_gold"
+            android:checked="false"
+            android:paddingEnd="10dp"
+            android:text="@string/radio_button_female"
+            android:textColor="@color/button_text_white"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_gender_both"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/button_bg_gold"
+            android:checked="false"
+            android:text="@string/radio_button_both"
+            android:textColor="@color/button_text_white"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+
+</LinearLayout>

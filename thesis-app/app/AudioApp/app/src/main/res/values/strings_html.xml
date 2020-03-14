@@ -1,0 +1,30 @@
+<!-- This file lists strings that use HTML-formatting. Regular strings are listed in strings.xml -->
+
+<resources>
+
+    <!-- PERMISSIONS -->
+    <!-- Rationale for RECORD AUDIO, WRITE TO EXTERNAL STORAGE and ACCESS FINE LOCATION permissions -->
+    <string name="recorder_permission_rationale_denied">
+        The app needs permission to &lt;b>use the microphone&lt;/b>, &lt;b>write to external storage&lt;/b> and &lt;b>access fine location&lt;/b> in order to record audio and save it. &lt;br>&lt;br>
+        Are you sure you want to deny these permissions?
+    </string>
+
+    <!-- Rationale for previously denied RECORD AUDIO, WRITE TO EXTERNAL STORAGE and ACCESS FINE LOCATION permissions -->
+    <string name="recorder_permission_rationale_previously_denied">
+        The app needs permission to &lt;b>use the microphone&lt;/b>, &lt;b>write to external storage&lt;/b> and &lt;b>access fine location&lt;/b> in order to save and store sessions. &lt;br>&lt;br>
+        You have previously denied the app these permissions. Would you like to request them again?
+    </string>
+
+    <!-- Rationale for READ EXTERNAL STORAGE permission -->
+    <string name="read_external_permission_rationale_denied">
+        The app needs permission to &lt;b>read external storage&lt;/b> in order to list recordings. &lt;br>&lt;br>
+        Are you sure you want to deny these permissions?
+    </string>
+
+    <!-- Rationale for previously denied READ EXTERNAL STORAGE permission -->
+    <string name="read_external_permission_rationale_previously_denied">
+        The app needs permission to &lt;b>read external storage&lt;/b> in order to list recordings. &lt;br>&lt;br>
+        You have previously denied the app these permissions. Would you like to request them again?
+    </string>
+
+</resources>

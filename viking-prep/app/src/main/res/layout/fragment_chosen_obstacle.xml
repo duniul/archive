@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fd070707"
+    android:id="@+id/specificobstacle"
+    android:minHeight="800dp"
+    android:gravity="center_vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:nestedScrollingEnabled="true"
+        android:measureAllChildren="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="specifikhinder"
+                android:id="@+id/chosenObstacleHead"
+                android:textSize="50sp"
+                android:textColor="#D6AD33"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/chosenObstacleImg"
+                android:layout_below="@+id/chosenObstacleHead"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tv_menulogo"
+                android:layout_gravity="center" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Beskrivning -"
+                android:id="@+id/descriptionHeader"
+                android:background="#2E2E2E"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beskrivning av den specifika hindern"
+                android:id="@+id/description"
+                android:textColor="#fffffefc"
+                android:layout_below="@id/descriptionHeader"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Träningtips -"
+                android:id="@+id/trainingtipsHeader"
+                android:background="#2E2E2E"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Träningstips från coachen"
+                android:id="@+id/trainingtips"
+                android:textColor="#fffffefc"
+                android:layout_below="@id/descriptionHeader"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Lägg till eget tips -"
+                android:id="@+id/ownTipHeader"
+                android:background="#2E2E2E"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Användartips -"
+                android:id="@+id/ownTipViewer"
+                android:background="#2E2E2E"
+                android:layout_marginBottom="5dp" />
+
+            <ListView
+                android:id="@+id/userTip_list"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom"
+                android:headerDividersEnabled="false"
+                android:footerDividersEnabled="false">
+
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

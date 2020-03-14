@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Com Hem Vendo</string>
+    <string name="no_customers_available">Inga kunder har finns registrerade.</string>
+    <string name="search_hint">Sök</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

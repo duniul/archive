@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="90"
+        android:title="Sök"
+        android:visible="true"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/menu_item_refresh"
+        android:title="Uppdatera kundlista"
+        app:showAsAction="never" />
+
+</menu>

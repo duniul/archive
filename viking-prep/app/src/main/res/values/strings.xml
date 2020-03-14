@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!--Appnamn-->
+    <string name="app_name">Tough Viking Prep</string>
+
+    <!-- Login-sidan -->
+    <string name="app_short_name">Prep</string>
+    <string name="hint_email">E-postadress</string>
+    <string name="hint_password">Lösenord</string>
+    <string name="button_login">LOGGA IN</string>
+    <string name="button_register">SKAPA KONTO</string>
+
+    <!-- Skapa konto-sidan -->
+    <string name="register_title">SKAPA KONTO</string>
+    <string name="hint_name">Förnamn</string>
+    <string name="hint_surname">Efternamn</string>
+    <string name="hint_confirm_password">Bekräfta lösenord</string>
+    <string name="hint_area">Ort</string>
+    <string name="hint_city">Stad</string>
+    <string name="hint_birthdate">Födelsedatum</string>
+    <string name="button_date_picker">VÄLJ DATUM</string>
+    <string name="gender_text">Jag är en: </string>
+    <string name="radio_button_male">Man</string>
+    <string name="radio_button_female">Kvinna</string>
+    <string name="radio_button_both">Båda</string>
+    <string name="button_confirm_register">BEKRÄFTA</string>
+    <string name="button_link_to_login">Har du redan ett konto? \n Klicka här för att logga in.</string>
+
+    <!-- MatchMaking_dialog-sidan -->
+    <string name="text_excercise_per_week">Antal träningspass i veckan:</string>
+    <string name="text_age_interval">Åldersintervall:</string>
+    <string name="gender_partner">Söker träningsvän:</string>
+    <string name="radio_button_training_interval12">1-2</string>
+    <string name="radio_button_training_interval34">3-4</string>
+    <string name="radio_button_training_interval56">5-6</string>
+    <string name="radio_button_training_interval7up">7+</string>
+    <string name="radio_button_age_18_24">18-24</string>
+    <string name="radio_button_age_25_34">25-34</string>
+    <string name="radio_button_age_35_50">25-34</string>
+
+
+    <!-- Blandade strängar, sortera gärna dessa -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_activity_menu">activity_menu</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="array_menu_content">
+        <item>Start</item>
+        <item>Profil</item>
+        <item>Hitta träningsvän</item>
+        <item>Sök personer</item>
+        <item>Konversationer</item>
+        <item>Vänner</item>
+        <item>Hinder</item>
+        <item>Logga ut</item>
+    </string-array>
+
+    <string name="title_section1">Start</string>
+    <string name="title_section2">Hitta träningsvän</string>
+    <string name="title_section3">Profil</string>
+    <string name="title_section4">Vänner</string>
+    <string name="title_section5">Hinder</string>
+    <string name="title_section6">Logga ut</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="drawer_open">Öppna meny.</string>
+    <string name="drawer_close">Stäng meny.</string>
+
+    <!-- SkapaTips-sidan -->
+    <string name="button_addPicture">+</string>
+    <string name="hint_writeTip">Skriv om ditt träningstips...</string>
+    <string name="button_sendTip">Skicka</string>
+    <string name="button_sendMessage">Skicka</string>
+    <string name="hint_writeMessage">Skriv nytt meddelande...</string>
+    <string name="create_tip">Skapa eget tips</string>
+
+
+</resources>

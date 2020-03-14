@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_item_label"
+    style="?android:attr/buttonBarButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="20dp"
+    android:drawableStart="@drawable/ic_drawer_item_settings"
+    android:gravity="center_vertical"
+    android:onClick="onDrawerItemClick"
+    android:paddingBottom="18dp"
+    android:paddingEnd="0dp"
+    android:paddingStart="20dp"
+    android:paddingTop="18dp"
+    android:text="@string/drawer_item_settings"
+    android:textColor="@color/primary_text"
+    android:textSize="14sp"
+    android:textStyle="bold" />

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_black">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="1">
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dagar kvar"
+                    android:id="@+id/welcome_message"
+                    android:textColor="#ff000000"
+                    android:background="@color/button_bg_gold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageView"
+                    android:layout_above="@+id/linearLayout3"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/startpicture"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/start_linear_one"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/profilButton"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:text="Profil"
+                        android:textColor="#FFFFFF"
+                        android:background="#2E2E2E"
+                        android:layout_alignTop="@+id/hittaTräningsvänButton"
+                        android:layout_toRightOf="@+id/hittaTräningsvänButton"
+                        android:layout_toEndOf="@+id/hittaTräningsvänButton"
+                        android:layout_gravity="center"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/hittaTräningsvänButton"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:text="Hitta träningsvän"
+                        android:textColor="#FFFFFF"
+                        android:background="#717171"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:text="Sök Personer"
+                        android:id="@+id/find_person_button"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:background="#2E2E2E"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/start_linear_two"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp">
+
+                    <Button
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:text="Konversationer"
+                        android:id="@+id/conversations_button"
+                        android:layout_gravity="center"
+                        android:background="#717171"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/vännerButton"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:text="Vänner"
+                        android:textColor="#FFFFFF"
+                        android:background="#2E2E2E"
+                        android:layout_below="@+id/hittaTräningsvänButton"
+                        android:layout_alignRight="@+id/hittaTräningsvänButton"
+                        android:layout_alignEnd="@+id/hittaTräningsvänButton"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/hinderButton"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:text="Hinder"
+                        android:textColor="#FFFFFF"
+                        android:background="#717171"
+                        android:layout_below="@+id/profilButton"
+                        android:layout_alignRight="@+id/profilButton"
+                        android:layout_alignEnd="@+id/profilButton"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+

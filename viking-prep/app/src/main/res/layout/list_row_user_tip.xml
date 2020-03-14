@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/user_tip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Förnamn Efternamn"
+        android:textColor="@color/header_text_gold"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp" />
+
+    <!--  ListRow Left side Thumbnail image -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="1dp"
+        android:layout_below="@+id/user_tip_name"
+        android:orientation="horizontal">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/firstTipImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/camera"
+            android:background="@color/bg_grey"
+            android:layout_marginLeft="10dp"/>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/secondTipImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/camera"
+            android:background="@color/bg_grey"
+            android:layout_marginLeft="15dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_tip_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt interdum velit, et maximus nisi aliquet vitae. Maecenas tincidunt porttitor ex, ac aliquam nunc tempor sit amet. Nulla ultricies bibendum orci, sed tempus mi dictum in. Etiam pellentesque eu leo vitae bibendum. Aenean ornare enim erat, a laoreet lacus egestas ac. Aenean nisi dolor, gravida non erat a, aliquam feugiat lacus. Etiam vel elementum enim. Etiam vestibulum interdum ex. Cras vestibulum, nisl tempor egestas ultricies, leo neque consequat sapien, nec mattis tortor arcu sed sapien. Suspendisse potenti. Sed felis velit, ultricies quis blandit at, congue ut neque."
+        android:textColor="@color/body_text_white"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp">
+
+    <!-- Thumbnail -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/default_profile_pic"
+        android:layout_marginLeft="10dp"
+        android:background="#ff636363"
+        android:padding="1dp" />
+
+    <!-- Namn -->
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/body_text_white"
+        android:text="Daniel Grönstrand" />
+
+    <!-- Ort och stad -->
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/full_name"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="17dp"
+        android:textColor="@color/body_text_white"
+        android:text="Bromma, Stockholm" />
+
+    <!-- Ålder -->
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="@color/body_text_white"
+        android:textSize="16dp"
+        android:text="21 år" />
+
+</RelativeLayout>

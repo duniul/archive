@@ -1,0 +1,29 @@
+<!-- This file lists custom themes used by the app -->
+
+<resources>
+
+    <!-- App  main theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- Action bar theme -->
+    <style name="AppActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:itemBackground">@android:color/white</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <!-- Theme for the tabs -->
+    <style name="AppTabLayout" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <!-- Dark Buttons for Google sign out -->
+    <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/blue_grey_500</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Bakgrundsfärger -->
+    <color name="bg_black">#000000</color>
+    <color name="bg_grey">#ffa0a0a0</color>
+
+    <!--Färger för brödtext -->
+    <color name="body_text_white">#fffafafa</color>
+
+    <!-- Färger för redigerbara textfält -->
+    <color name="input_field_text">#ff2c2c2c</color>
+    <color name="input_field_hint">#ffa0a0a0</color>
+    <color name="input_field_bg">#fffafafa</color>
+
+    <!-- Knappfärger -->
+    <color name="button_bg_gray">#ff8b8b8b</color>
+    <color name="button_bg_gold">#ffcaa033</color>
+    <color name="button_text_white">#eceef1</color>
+    <color name="button_text_black">#ff000000</color>
+
+    <!--Färg för överskrift -->
+    <color name="header_text_white">#fffafafa</color>
+    <color name="header_text_gold">#ffcaa033</color>
+
+</resources>

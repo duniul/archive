@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file is used for the menu in ListeningSessionsFragment. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/listening_sessions_menu_refresh"
+        android:title="@string/refresh_listening_sessions"
+        app:showAsAction="never" />
+</menu>

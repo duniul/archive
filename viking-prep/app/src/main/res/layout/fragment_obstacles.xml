@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black"
+    android:id="@+id/obstacles">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            //Balance
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/balancegenomskinlig"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.05"
+                android:id="@+id/balancepicture"
+                android:clickable="true"/>
+
+
+            <Button
+                android:id="@+id/balancebutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Balance   >"
+                android:textColor="#FFFFFF"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+
+            //Carry-a-log
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/carryalog"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/carryalogpicture"
+                android:clickable="true"/>
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Carry-a-log   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/carryalogbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+
+                />
+
+            //Icetank
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/icetankgenomskinliga"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/icetankpicture"
+                android:clickable="true"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice tank   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/icetankbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+            //Monkeybar
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/monkeybargenomskinlig"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/monkeybarpicture"
+                android:clickable="true"/>
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Monkeybar   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/monkeybarbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+
+            //Pipes
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pipesgenomskinlig"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/pipespicture"
+                android:clickable="true"/>
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pipes   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/pipesbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+            //Reebok
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/reebokvoltgenomskinliga"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/reebokpicure"
+                android:clickable="true" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Reebok 10000 volt   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/reebokbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+            //Ropes
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ropesgenomskinlig"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ropespicture"
+                android:clickable="true"
+                />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ropes   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/ropesbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+            //Tractor
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/traktorgenomskinlig"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tractortirespicutre"
+                android:clickable="true"
+                />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tractor tires   >"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tractortiresbutton"
+                android:background="#525258"
+                android:gravity="right|center"
+                />
+
+        </LinearLayout>
+</ScrollView>
+

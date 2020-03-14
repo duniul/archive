@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#ff363533"
+        android:minHeight="50dp"
+        android:paddingRight="5dp">
+
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/thumbnail"
+            android:src="@drawable/default_profile_pic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff363533"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Förnamn Efternamn"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:id="@+id/person_name"
+            android:textColor="@color/button_bg_gold"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2015-06-01 - 18:09:30"
+            android:id="@+id/last_message_date_and_time_sent"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:textColor="@color/button_text_white"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Skickat av Förnamn:"
+            android:id="@+id/last_message_sent_by"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textIsSelectable="false"
+            android:textColor="@color/button_text_white"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="&quot;Lorem ipsum dolor sit amet, consectetur test adip iscing elit. dolor sit amet lo hejhopp.&quot;"
+            android:id="@+id/last_message_text"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:maxLines="2"
+            android:textColor="@color/button_text_white"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <TextView
+        android:id="@+id/addTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eget Tips"
+        android:textSize="40sp"
+        android:textColor="#D6AD33"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/addTip"
+        android:id="@+id/linearLayout"
+        >
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frame_tip_picture_one">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tip_picture_one"
+                android:src="@drawable/camera"
+                android:background="@color/button_bg_gray"
+                android:cropToPadding="false"
+                android:padding="2dp" />
+
+            <Button
+                android:id="@+id/button_edit_tip_picture_one"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="#be8b8b8b"
+                android:text="Byt bild"
+                android:textColor="@color/button_text_white"
+                android:textSize="@dimen/button_text_size"
+                android:layout_alignParentBottom="true"
+/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frame_tip_picture_two"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tip_picture_two"
+                android:src="@drawable/camera"
+                android:background="@color/button_bg_gray"
+                android:cropToPadding="false"
+                android:padding="2dp" />
+
+            <Button
+                android:id="@+id/button_edit_tip_picture_two"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="#be8b8b8b"
+                android:text="Byt bild"
+                android:textColor="@color/button_text_white"
+                android:textSize="@dimen/button_text_size"
+                android:layout_alignParentBottom="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tipTextField"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:background="@color/input_field_bg"
+        android:hint="@string/hint_writeTip"
+        android:textColor="@color/input_field_text"
+        android:textColorHint="@color/input_field_hint"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/sendTipButton"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/button_bg_gray"
+        android:textColor="@color/button_text_white"
+        android:clickable="true"
+        android:onClick="onSaveClick"
+        android:text="@string/button_sendTip"
+        android:layout_below="@+id/tipTextField"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

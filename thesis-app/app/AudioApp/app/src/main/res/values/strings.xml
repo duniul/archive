@@ -1,0 +1,97 @@
+<!-- This file lists regular strings used by the app. Strings that use HTML are listed in strings_html.xml -->
+
+<resources>
+    <!-- *** CONFIGS *** -->
+    <!-- The name of the app. -->
+    <string name="app_name">Listening App</string>
+
+    <!-- Google App ID -->
+    <string name="google_app_id">893551351165-o9rgd4cp36mdoi679c7jstn09l873oej.apps.googleusercontent.com</string>
+
+    <!-- Default string used at the beginning of the listening file names. -->
+    <string name="recording_file_name_base">ListeningAppRecording</string>
+
+    <!-- *** GOOGLE ACCOUNT *** -->
+    <!-- Strings shown when signing out or disconnecting from a Google account -->
+    <string name="sign_out">Sign out</string>
+    <string name="disconnect">Disconnect</string>
+
+
+    <!-- *** GLOBAL *** -->
+    <!-- String used for the title in permission rationale dialogs. -->
+    <string name="permission_dialog_title">Permissions denied</string>
+
+
+    <!-- *** MAIN ACTIVITY *** -->
+    <!-- Strings used for buttons to open and close the navigation drawer. -->
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <!-- Content description for the expand button in the drawer header -->
+    <string name="header_expand_button_description">Expand account options.</string>
+
+    <!-- Strings for drawer header -->
+    <string name="drawer_header_no_user">No active user</string>
+    <string name="drawer_header_no_user2">Click here to sign in.</string>
+
+    <!-- Labels for the drawer MAIN MENU -->
+    <string name="drawer_item_audio_recording">Audio listening</string>
+    <string name="drawer_item_settings">Settings</string>
+
+    <!-- Labels for the drawers ACCOUNT MENU -->
+    <string name="drawer_item_account_settings">Account settings</string>
+    <string name="drawer_item_change_account">Change account</string>
+    <string name="drawer_item_sign_out">Sign out</string>
+
+    <!-- Placeholders for the drawer header and items for use in preview. -->
+    <string name="drawer_header_name_placeholder">Name Surname</string>
+    <string name="drawer_header_email_placeholder">name.surname@gmail.com</string>
+
+    <!-- Snackbar messages for the MainActivity -->
+    <string name="sign_in_successful">Signed in with %1$s!</string>
+    <string name="sign_out_finished">Sign out successful!</string>
+
+    <!-- *** RECORDER FRAGMENT *** -->
+    <!-- Strings used for the listening buttons -->
+    <string name="start_listening_button_text">Start listening</string>
+    <string name="stop_listening_button_text">Stop listening</string>
+
+    <!-- Short rationale for permission to RECORD AUDIO, WRITE TO EXTERNAL STORAGE and ACCESS FINE LOCATION. -->
+    <string name="recorder_permission_rationale_short">Previously denied permissions are required to start the session.</string>
+
+    <!-- String shown when permission to RECORD AUDIO, WRITE TO EXTERNAL STORAGE and ACCESS FINE LOCATION has been granted. -->
+    <string name="recorder_permission_granted">Permissions granted! You may now start a session.</string>
+
+    <!-- String shown when permission to RECORD AUDIO, WRITE TO EXTERNAL STORAGE and ACCESS FINE LOCATION has been denied. -->
+    <string name="recorder_permission_denied">Permissions denied! You must grant them to be able to start sessions and record and store files.</string>
+
+    <!-- String used when a listening has been saved locally. -->
+    <string name="recording_saved_local">Recording saved to local storage.</string>
+
+
+    <!-- *** LISTENING SESSIONS FRAGMENT *** -->
+    <!-- Strings used for the items in ListeningSessionsFragment's overflow menu. -->
+    <string name="refresh_listening_sessions">Refresh</string>
+
+    <string name="list_recordings_not_available">No recordings are available.</string>
+
+    <string name="list_recordings_no_permission">Recordings cannot be listed because permission to read external storage hasn\'t been granted.</string>
+
+    <!-- Short rationale for permission to WRITE TO EXTERNAL STORAGE. -->
+    <string name="read_external_permission_rationale_short">Previously denied permissions are required to list recordings.</string>
+
+    <!-- String shown when permission to READ EXTERNAL STORAGE has been granted. -->
+    <string name="read_external_permission_granted">Permissions granted! Recordings have been updated.</string>
+
+    <!-- String shown when permission to READ EXTERNAL STORAGE has been denied. -->
+    <string name="read_external_permission_denied">Permissions denied! You must grant them to be able to list recordings.</string>
+
+    <!-- Content description for the listening items more button. -->
+    <string name="recordings_recycler_item_button_description">Show more options for listening.</string>
+
+    <string name="recordings_recycler_item_name_placeholder">AudioAppRecording_2017-04-11_19-16-34</string>
+    <string name="recordings_recycler_item_date_placeholder">2014-04-11 17:50</string>
+    <string name="recordings_recycler_item_duration_placeholder">00:03:45</string>
+    <string name="recordings_recycler_date_header_placeholder">Last 7 days</string>
+
+</resources>

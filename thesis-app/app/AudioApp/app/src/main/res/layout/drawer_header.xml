@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:background="@color/primary"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:onClick="onHeaderClick" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/header_circle_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_default_profile_picture" />
+
+    <ProgressBar
+        android:id="@+id/header_image_progress_indicator"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@id/header_circle_image"
+        android:layout_alignStart="@id/header_circle_image"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/header_email"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="16dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/drawer_header_name_placeholder"
+        android:textColor="@color/light_text"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/header_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ellipsize="middle"
+        android:maxLines="1"
+        android:text="@string/drawer_header_email_placeholder"
+        android:textColor="@color/light_text"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:drawableEnd="@drawable/ic_drawer_header_drop_down_button" />
+
+</RelativeLayout>
